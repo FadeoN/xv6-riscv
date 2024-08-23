@@ -26,5 +26,3 @@ int main(int argc, char *argv[])
 
     exit(0);
 }
-
-git@github.com:FadeoN/xv6-riscv.git
