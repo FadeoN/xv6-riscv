@@ -1,6 +1,10 @@
 #include "kernel/types.h"
 #include "user/user.h"
 
+
+// Write a concurrent version of prime sieve using pipes. This idea is due to Doug McIlroy, inventor of Unix pipes. The picture halfway down this page and the surrounding text explain how to do it. Your solution should be in the file user/primes.c.
+
+
 static const int STIN = 0;
 static const int STOUT = 1;
 static const int STERR = 2;
